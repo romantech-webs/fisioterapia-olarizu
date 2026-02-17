@@ -1,307 +1,333 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Fisioterapia \"Olarizu\"",
+  logo: "/images/logo.png",
+  tagline: "Tu recuperación en manos expertas en Araba",
+  description: "Fisioterapia Olarizu es tu clínica de confianza en Araba, Álava, con 4.6 estrellas y 199 reseñas en Google. Contamos con instalaciones modernas y equipamiento de última generación para tu recuperación. Ofrecemos fisioterapia manual, deportiva, rehabilitación personalizada, punción seca, electroterapia avanzada y tratamiento de suelo pélvico. Nuestro equipo de profesionales altamente cualificados te ayudará a aliviar el dolor y recuperar tu movilidad con resultados desde la primera sesión.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#77584a",
+    secondary: "#3a1d12",
+    accent: "#3a1d12",
+    neutral: "#f4f2f1"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "607 94 14 28",
+  whatsapp: "+34607941428",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Iturritxu Kalea, 11, 01006 Vitoria-Gasteiz, Araba, España",
+    city: "Araba",
+    province: "Álava",
+    postalCode: "01006",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=16628768368179165435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Fisioterapia%20%22Olarizu%22%20%4042.8345%2C-2.66256&z=16&output=embed",
+  coordinates: {
+    lat: 42.8345,
+    lng: -2.66256
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "Lunes - Viernes",
+      hours: "09:00 - 20:00"
+    },
+    {
+      days: "Sábado",
+      hours: "Consultar"
+    },
+    {
+      days: "Domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.6,
+    count: 199,
+    url: "https://maps.google.com/?cid=16628768368179165435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Anderr Anderr",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Totalmente recomendable, instalación y equipamiento Moderno, además de un trato profesional Excelente.\nGracias, Leire",
+        date: "Hace 12 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "Nuria De Bustos Simon",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Excelente.\nEn una sola sesión me han calmado los dolores,..\nEl que sabe … sabe…\nMuy buenas profesionales.\nGracias",
+        date: "Hace 1 mes"
       },
       {
-        author: "Melanie Ponce",
+        author: "Pablo Niso",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Gran trato y grandes profesionales.sin duda un lugar xa tener muy en cuenta si hay algun problema físico.",
+        date: "Hace 5 años"
       },
       {
-        author: "María Teresa Salguero",
-        rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
-      },
-    ],
+        author: "Iñaki",
+        rating: 4,
+        text: "Son buenos profesionales y los precios están bastante ajustados,la verdad.El trato es agradable y cuentan con aparatología de última gama.El horario es amplio y es quizás que por ello hay que pedir cita con cierta antelación.",
+        date: "Hace 6 años"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Aplicamos técnicas manuales especializadas para aliviar el dolor y mejorar la movilidad articular. Nuestras profesionales utilizan terapia manual avanzada adaptada a cada paciente. Tratamientos efectivos que logran resultados desde la primera sesión.",
+      benefits: [
+        "Alivio inmediato del dolor muscular y articular",
+        "Mejora significativa de la movilidad",
+        "Tratamiento personalizado según tu lesión"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Especialistas en recuperación y prevención de lesiones deportivas con técnicas avanzadas. Trabajamos con deportistas de todos los niveles para optimizar su rendimiento. Programas específicos para cada disciplina deportiva.",
+      benefits: [
+        "Recuperación acelerada de lesiones deportivas",
+        "Prevención de futuras lesiones",
+        "Mejora del rendimiento deportivo"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "rehabilitacion",
+      name: "Rehabilitación Personalizada",
+      description: "Diseñamos programas de rehabilitación completamente personalizados para recuperar tu funcionalidad. Seguimiento continuo de tu evolución con ajustes según tus progresos. Utilizamos equipamiento moderno de última generación.",
+      benefits: [
+        "Recuperación completa de la funcionalidad",
+        "Plan adaptado a tu ritmo y necesidades",
+        "Seguimiento profesional constante"
+      ],
+      icon: "Activity"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "puncion-seca",
+      name: "Punción Seca",
+      description: "Técnica especializada para el tratamiento de puntos gatillo miofasciales que causan dolor crónico. Eliminamos contracturas profundas y aliviamos el dolor persistente. Resultados rápidos y duraderos en dolores musculares crónicos.",
+      benefits: [
+        "Eliminación efectiva de contracturas",
+        "Alivio del dolor crónico muscular",
+        "Resultados visibles desde las primeras sesiones"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "electroterapia",
+      name: "Electroterapia Avanzada",
+      description: "Contamos con aparatología de última gama para tratamientos con corrientes eléctricas terapéuticas. Tecnología moderna que acelera significativamente tu proceso de recuperación. Tratamientos no invasivos y altamente efectivos.",
+      benefits: [
+        "Aceleración del proceso de curación",
+        "Reducción de inflamación y dolor",
+        "Tecnología de última generación"
+      ],
+      icon: "Zap"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "suelo-pelvico",
+      name: "Suelo Pélvico",
+      description: "Tratamiento especializado para disfunciones del suelo pélvico en hombres y mujeres. Abordaje profesional y discreto de problemas de incontinencia, prolapsos y disfunciones sexuales. Técnicas avanzadas con resultados probados.",
+      benefits: [
+        "Solución a problemas de incontinencia",
+        "Mejora de la calidad de vida íntima",
+        "Tratamiento profesional y confidencial"
+      ],
+      icon: "Heart"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "terapia-manual-avanzada",
+      name: "Terapia Manual Avanzada",
+      description: "Técnicas manuales especializadas que combinan osteopatía, masaje terapéutico y movilizaciones articulares. Nuestras profesionales aplican métodos avanzados para problemas físicos complejos. Enfoque integral para tu recuperación completa.",
+      benefits: [
+        "Tratamiento integral de lesiones complejas",
+        "Técnicas avanzadas personalizadas",
+        "Profesionales altamente cualificadas"
+      ],
+      icon: "Hand"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "valoracion-personalizada",
+      name: "Valoración Personalizada",
+      description: "Realizamos una evaluación completa de tu estado físico antes de iniciar cualquier tratamiento. Diseñamos un plan terapéutico específico según tus necesidades y objetivos. Primera sesión enfocada en entender tu problema para lograr los mejores resultados.",
+      benefits: [
+        "Diagnóstico preciso de tu lesión",
+        "Plan de tratamiento a medida",
+        "Objetivos claros de recuperación"
+      ],
+      icon: "Activity"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Solicita tu Cita",
+      description: "Contacta con nosotros por teléfono al 607 94 14 28 o WhatsApp. Te ofrecemos horario amplio para adaptarnos a tu disponibilidad. Reserva tu cita con la antelación recomendada para asegurar tu plaza."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Inicial Completa",
+      description: "En tu primera visita realizamos una evaluación exhaustiva de tu estado físico y el origen de tu dolor. Diseñamos un plan de tratamiento personalizado con objetivos claros. Te explicamos detalladamente las técnicas que aplicaremos para tu recuperación."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Especializado",
+      description: "Aplicamos las técnicas más adecuadas combinando terapia manual y tecnología avanzada. Utilizamos nuestro equipamiento moderno de última generación según tu lesión. Cada sesión está enfocada en lograr resultados visibles y duraderos."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Recuperación",
+      description: "Realizamos un seguimiento continuo de tu evolución ajustando el tratamiento según tus progresos. Te acompañamos hasta tu completa recuperación con pautas y ejercicios personalizados. Nuestro objetivo es que recuperes tu bienestar y calidad de vida."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelente Valoración de Pacientes",
+      description: "Contamos con 4.6 estrellas y 199 reseñas en Google que avalan la calidad de nuestro trabajo. Nuestros pacientes destacan los resultados desde la primera sesión y el trato profesional excelente que reciben. La confianza de quienes ya han recuperado su bienestar con nosotros es nuestra mejor carta de presentación.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Tecnología de Última Generación",
+      description: "Nuestras instalaciones cuentan con equipamiento moderno y aparatología de última gama. Combinamos tecnología avanzada con técnicas manuales especializadas para optimizar tu recuperación. Invertimos constantemente en los mejores recursos para ofrecerte tratamientos de máxima calidad.",
+      icon: "Zap"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Profesionales Altamente Cualificadas",
+      description: "Nuestro equipo está formado por fisioterapeutas expertas con formación continua en técnicas avanzadas. El trato profesional y cercano que ofrecemos hace que cada paciente se sienta en las mejores manos. Como dicen nuestros pacientes: el que sabe, sabe.",
+      icon: "Target"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Horario Amplio y Precios Ajustados",
+      description: "Ofrecemos un horario extenso para adaptarnos a tu disponibilidad y facilitar tu recuperación. Nuestros precios son ajustados y competitivos sin renunciar a la calidad del servicio. Te recomendamos pedir cita con antelación por nuestra alta demanda, lo que refleja la confianza de nuestros pacientes.",
+      icon: "Activity"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Leire",
+      role: "Fisioterapeuta",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Fisioterapia \"Olarizu\" nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Fisioterapia \"Olarizu\" - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Fisioterapia \"Olarizu\" - Imagen 2"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Fisioterapia \"Olarizu\" - Imagen 3"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Cuántas sesiones necesitaré para recuperarme?",
+      answer: "En Fisioterapia Olarizu cada caso es único y el número de sesiones depende de tu lesión y evolución. Muchos de nuestros pacientes experimentan alivio significativo desde la primera sesión, como reflejan nuestras reseñas. Durante la valoración inicial te daremos una estimación aproximada según tu problema específico. Realizamos seguimiento continuo para ajustar el tratamiento según tus progresos."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Qué diferencia a Fisioterapia Olarizu de otras clínicas?",
+      answer: "Contamos con 4.6 estrellas de valoración y 199 reseñas en Google que avalan nuestro trabajo. Nuestras instalaciones cuentan con equipamiento moderno y aparatología de última gama. Nuestras profesionales combinan un trato excelente con técnicas avanzadas que logran resultados desde la primera sesión. Además, ofrecemos precios ajustados y horario amplio para tu comodidad."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cómo solicito una cita en Fisioterapia Olarizu?",
+      answer: "Puedes solicitar tu cita llamando al 607 94 14 28 o contactando por WhatsApp. Te recomendamos pedir cita con cierta antelación debido a nuestra alta demanda. Nuestro horario es amplio para adaptarnos a tu disponibilidad. Te atenderemos de forma rápida y profesional para asignarte la mejor fecha."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Tratáis lesiones deportivas?",
+      answer: "Sí, en Fisioterapia Olarizu somos especialistas en fisioterapia deportiva y tratamiento de lesiones relacionadas con el deporte. Trabajamos con deportistas de todos los niveles aplicando técnicas avanzadas de recuperación. Diseñamos programas personalizados para cada tipo de lesión y disciplina deportiva. Nuestro objetivo es que vuelvas a tu actividad deportiva en óptimas condiciones."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué tecnología utilizáis en los tratamientos?",
+      answer: "Contamos con equipamiento moderno y aparatología de última gama según destacan nuestros pacientes. Utilizamos electroterapia avanzada, equipos de última generación para rehabilitación y tecnología moderna para acelerar tu recuperación. Combinamos esta tecnología con técnicas manuales especializadas para lograr los mejores resultados. Nuestras instalaciones están completamente actualizadas."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Ofrecéis tratamiento de suelo pélvico?",
+      answer: "Sí, en Fisioterapia Olarizu ofrecemos tratamiento especializado de suelo pélvico para hombres y mujeres. Abordamos problemas de incontinencia, prolapsos y disfunciones con profesionalidad y discreción. Utilizamos técnicas avanzadas y un enfoque personalizado para cada paciente. Es uno de nuestros servicios especializados con excelentes resultados."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Cuáles son vuestros precios?",
+      answer: "En Fisioterapia Olarizu ofrecemos precios ajustados y competitivos, como destacan nuestros pacientes en sus valoraciones. El precio varía según el tipo de tratamiento y la duración de las sesiones. Durante la primera valoración te informaremos del coste específico de tu tratamiento personalizado. Puedes contactarnos en el 607 94 14 28 para información detallada sobre tarifas."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Puedo ir sin derivación médica?",
+      answer: "Sí, puedes acudir a Fisioterapia Olarizu directamente sin necesidad de derivación médica previa. Realizamos una valoración completa inicial para diagnosticar tu problema y diseñar el tratamiento adecuado. Nuestras profesionales están altamente cualificadas para evaluar y tratar diversos problemas físicos. Si fuera necesario, te recomendaríamos consultar con otros especialistas médicos."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Fisioterapia Olarizu",
+    defaultTitle: "Fisioterapia Olarizu - Clínica en Araba, Álava",
+    defaultDescription: "Fisioterapia Olarizu en Araba: fisioterapia manual, deportiva, rehabilitación, punción seca y suelo pélvico. 4.6★ en Google. Equipamiento moderno. ☎️ 607 94 14 28",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Araba",
+      "fisioterapia Álava",
+      "Fisioterapia Olarizu",
+      "fisioterapeuta Araba",
+      "clínica fisioterapia Álava",
+      "rehabilitación Araba",
+      "fisioterapia deportiva Álava",
+      "punción seca Araba",
+      "suelo pélvico Álava",
+      "fisioterapia manual Araba",
+      "electroterapia Álava",
+      "fisio Araba"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Fisioterapia \"Olarizu\"",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Iturritxu Kalea, 11, 01006 Vitoria-Gasteiz, Araba, España, Araba, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Araba"
+  ],
+  heroDescription: "En Fisioterapia Olarizu combinamos técnicas manuales especializadas con tecnología de última generación para tu recuperación. Nuestras profesionales cuentan con amplia experiencia y un enfoque personalizado que logra resultados visibles desde la primera sesión. Ubicados en Araba, ofrecemos horario amplio y precios ajustados para tu comodidad.",
+  specialty: "Fisioterapia Avanzada",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para recuperar tu bienestar?",
+  ctaDescription: "Solicita tu cita en Fisioterapia Olarizu y descubre por qué somos la clínica mejor valorada de Araba. Nuestro equipo te espera para diseñar tu plan de recuperación personalizado.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
