@@ -1,8 +1,8 @@
 export const clinic = {
   name: "Fisioterapia \"Olarizu\"",
   logo: "/images/logo.png",
-  tagline: "Tu recuperación en manos expertas en Araba",
-  description: "Fisioterapia Olarizu es tu clínica de confianza en Araba, Álava, con 4.6 estrellas y 199 reseñas en Google. Contamos con instalaciones modernas y equipamiento de última generación para tu recuperación. Ofrecemos fisioterapia manual, deportiva, rehabilitación personalizada, punción seca, electroterapia avanzada y tratamiento de suelo pélvico. Nuestro equipo de profesionales altamente cualificados te ayudará a aliviar el dolor y recuperar tu movilidad con resultados desde la primera sesión.",
+  tagline: "Tu clínica de fisioterapia de confianza en Araba",
+  description: "Fisioterapia Olarizu es tu clínica de referencia en Araba, Álava, con 4.6 estrellas y 199 reseñas en Google. Ofrecemos tratamientos de fisioterapia manual, deportiva, punción seca, electroterapia y suelo pélvico con equipamiento moderno y aparatología de última generación. Nuestras profesionales altamente cualificadas te ayudarán a recuperarte desde la primera sesión con un trato cercano y personalizado.",
   colors: {
     primary: "#77584a",
     secondary: "#3a1d12",
@@ -81,51 +81,51 @@ export const clinic = {
     {
       id: "fisioterapia-manual",
       name: "Fisioterapia Manual",
-      description: "Aplicamos técnicas manuales especializadas para aliviar el dolor y mejorar la movilidad articular. Nuestras profesionales utilizan terapia manual avanzada adaptada a cada paciente. Tratamientos efectivos que logran resultados desde la primera sesión.",
+      description: "Técnicas manuales especializadas aplicadas por profesionales expertas que saben exactamente cómo aliviar tu dolor. Tratamiento personalizado para cada paciente según su patología específica. Resultados visibles desde la primera sesión, tal como confirman nuestros pacientes.",
       benefits: [
-        "Alivio inmediato del dolor muscular y articular",
-        "Mejora significativa de la movilidad",
-        "Tratamiento personalizado según tu lesión"
+        "Alivio del dolor desde la primera sesión",
+        "Mejora inmediata de la movilidad articular",
+        "Tratamiento 100% personalizado a tu lesión"
       ],
       icon: "Hand"
     },
     {
       id: "fisioterapia-deportiva",
       name: "Fisioterapia Deportiva",
-      description: "Especialistas en recuperación y prevención de lesiones deportivas con técnicas avanzadas. Trabajamos con deportistas de todos los niveles para optimizar su rendimiento. Programas específicos para cada disciplina deportiva.",
+      description: "Recuperación y prevención de lesiones deportivas con técnicas avanzadas y aparatología de última generación. Tratamos desde lesiones agudas hasta problemas crónicos que limitan tu rendimiento. Programas específicos para cada deporte y nivel de actividad.",
       benefits: [
-        "Recuperación acelerada de lesiones deportivas",
-        "Prevención de futuras lesiones",
-        "Mejora del rendimiento deportivo"
+        "Recuperación más rápida de lesiones deportivas",
+        "Prevención de recaídas y nuevas lesiones",
+        "Vuelta segura a tu actividad deportiva"
       ],
       icon: "Dumbbell"
     },
     {
       id: "rehabilitacion",
-      name: "Rehabilitación Personalizada",
-      description: "Diseñamos programas de rehabilitación completamente personalizados para recuperar tu funcionalidad. Seguimiento continuo de tu evolución con ajustes según tus progresos. Utilizamos equipamiento moderno de última generación.",
+      name: "Rehabilitación",
+      description: "Programas de rehabilitación personalizados diseñados para recuperar completamente tu funcionalidad. Combinamos terapia manual con ejercicios terapéuticos y tecnología avanzada. Seguimiento continuo hasta alcanzar tus objetivos de recuperación.",
       benefits: [
-        "Recuperación completa de la funcionalidad",
-        "Plan adaptado a tu ritmo y necesidades",
-        "Seguimiento profesional constante"
+        "Recuperación funcional completa",
+        "Programa adaptado a tu ritmo y evolución",
+        "Seguimiento profesional en cada fase"
       ],
       icon: "Activity"
     },
     {
       id: "puncion-seca",
       name: "Punción Seca",
-      description: "Técnica especializada para el tratamiento de puntos gatillo miofasciales que causan dolor crónico. Eliminamos contracturas profundas y aliviamos el dolor persistente. Resultados rápidos y duraderos en dolores musculares crónicos.",
+      description: "Tratamiento específico de puntos gatillo miofasciales para eliminar contracturas y dolor crónico persistente. Técnica altamente efectiva para dolores musculares que no responden a otros tratamientos. Aplicada por fisioterapeutas especializadas y certificadas.",
       benefits: [
-        "Eliminación efectiva de contracturas",
+        "Eliminación de contracturas rebeldes",
         "Alivio del dolor crónico muscular",
-        "Resultados visibles desde las primeras sesiones"
+        "Resultados duraderos y efectivos"
       ],
       icon: "Target"
     },
     {
       id: "electroterapia",
-      name: "Electroterapia Avanzada",
-      description: "Contamos con aparatología de última gama para tratamientos con corrientes eléctricas terapéuticas. Tecnología moderna que acelera significativamente tu proceso de recuperación. Tratamientos no invasivos y altamente efectivos.",
+      name: "Electroterapia",
+      description: "Tecnología de vanguardia con aparatología de última generación para acelerar tu recuperación. Utilizamos corrientes eléctricas terapéuticas adaptadas a cada tipo de lesión. Equipamiento moderno que garantiza tratamientos seguros y efectivos.",
       benefits: [
         "Aceleración del proceso de curación",
         "Reducción de inflamación y dolor",
@@ -136,79 +136,57 @@ export const clinic = {
     {
       id: "suelo-pelvico",
       name: "Suelo Pélvico",
-      description: "Tratamiento especializado para disfunciones del suelo pélvico en hombres y mujeres. Abordaje profesional y discreto de problemas de incontinencia, prolapsos y disfunciones sexuales. Técnicas avanzadas con resultados probados.",
+      description: "Tratamiento especializado para disfunciones del suelo pélvico en hombres y mujeres con total privacidad y profesionalidad. Abordamos incontinencia, dolor pélvico, postparto y otras alteraciones. Terapia discreta y efectiva con resultados comprobados.",
       benefits: [
-        "Solución a problemas de incontinencia",
-        "Mejora de la calidad de vida íntima",
-        "Tratamiento profesional y confidencial"
+        "Mejora de la calidad de vida",
+        "Tratamiento discreto y personalizado",
+        "Solución a problemas de incontinencia"
       ],
       icon: "Heart"
-    },
-    {
-      id: "terapia-manual-avanzada",
-      name: "Terapia Manual Avanzada",
-      description: "Técnicas manuales especializadas que combinan osteopatía, masaje terapéutico y movilizaciones articulares. Nuestras profesionales aplican métodos avanzados para problemas físicos complejos. Enfoque integral para tu recuperación completa.",
-      benefits: [
-        "Tratamiento integral de lesiones complejas",
-        "Técnicas avanzadas personalizadas",
-        "Profesionales altamente cualificadas"
-      ],
-      icon: "Hand"
-    },
-    {
-      id: "valoracion-personalizada",
-      name: "Valoración Personalizada",
-      description: "Realizamos una evaluación completa de tu estado físico antes de iniciar cualquier tratamiento. Diseñamos un plan terapéutico específico según tus necesidades y objetivos. Primera sesión enfocada en entender tu problema para lograr los mejores resultados.",
-      benefits: [
-        "Diagnóstico preciso de tu lesión",
-        "Plan de tratamiento a medida",
-        "Objetivos claros de recuperación"
-      ],
-      icon: "Activity"
     }
   ],
   process: [
     {
       step: 1,
-      title: "Solicita tu Cita",
-      description: "Contacta con nosotros por teléfono al 607 94 14 28 o WhatsApp. Te ofrecemos horario amplio para adaptarnos a tu disponibilidad. Reserva tu cita con la antelación recomendada para asegurar tu plaza."
+      title: "Contacta con nosotras",
+      description: "Llámanos al 607 94 14 28 o escríbenos por WhatsApp. Nuestro horario es amplio para adaptarnos a tu disponibilidad. Te recomendamos pedir cita con cierta antelación para garantizar el mejor hueco."
     },
     {
       step: 2,
-      title: "Valoración Inicial Completa",
-      description: "En tu primera visita realizamos una evaluación exhaustiva de tu estado físico y el origen de tu dolor. Diseñamos un plan de tratamiento personalizado con objetivos claros. Te explicamos detalladamente las técnicas que aplicaremos para tu recuperación."
+      title: "Valoración profesional",
+      description: "En tu primera visita realizamos una evaluación exhaustiva de tu estado físico y el origen de tu dolor. Diseñamos un plan de tratamiento personalizado con las técnicas más adecuadas para tu caso específico."
     },
     {
       step: 3,
-      title: "Tratamiento Especializado",
-      description: "Aplicamos las técnicas más adecuadas combinando terapia manual y tecnología avanzada. Utilizamos nuestro equipamiento moderno de última generación según tu lesión. Cada sesión está enfocada en lograr resultados visibles y duraderos."
+      title: "Tratamiento especializado",
+      description: "Aplicamos terapia manual avanzada combinada con nuestra aparatología de última generación. Cada sesión está enfocada en conseguir resultados desde el primer día, tal como confirman nuestros pacientes."
     },
     {
       step: 4,
-      title: "Seguimiento y Recuperación",
-      description: "Realizamos un seguimiento continuo de tu evolución ajustando el tratamiento según tus progresos. Te acompañamos hasta tu completa recuperación con pautas y ejercicios personalizados. Nuestro objetivo es que recuperes tu bienestar y calidad de vida."
+      title: "Seguimiento hasta tu recuperación",
+      description: "Te acompañamos durante todo el proceso con seguimiento continuo y ajustes en el tratamiento según tu evolución. No paramos hasta que recuperes completamente tu bienestar y movilidad."
     }
   ],
   whyUs: [
     {
-      title: "Excelente Valoración de Pacientes",
-      description: "Contamos con 4.6 estrellas y 199 reseñas en Google que avalan la calidad de nuestro trabajo. Nuestros pacientes destacan los resultados desde la primera sesión y el trato profesional excelente que reciben. La confianza de quienes ya han recuperado su bienestar con nosotros es nuestra mejor carta de presentación.",
-      icon: "Heart"
+      title: "4.6 estrellas con 199 reseñas en Google",
+      description: "La confianza de nuestros pacientes es nuestra mejor carta de presentación. Con una valoración de 4.6 sobre 5 y casi 200 reseñas verificadas en Google, nuestros resultados hablan por sí solos. Pacientes reales confirman la efectividad de nuestros tratamientos y la profesionalidad de nuestro equipo.",
+      icon: "Star"
     },
     {
-      title: "Tecnología de Última Generación",
-      description: "Nuestras instalaciones cuentan con equipamiento moderno y aparatología de última gama. Combinamos tecnología avanzada con técnicas manuales especializadas para optimizar tu recuperación. Invertimos constantemente en los mejores recursos para ofrecerte tratamientos de máxima calidad.",
+      title: "Aparatología de última generación",
+      description: "Invertimos continuamente en tecnología de vanguardia para ofrecerte los tratamientos más avanzados y efectivos. Nuestras instalaciones modernas cuentan con equipamiento de última gama que acelera tu recuperación. Combinamos lo mejor de la terapia manual con la innovación tecnológica.",
       icon: "Zap"
     },
     {
-      title: "Profesionales Altamente Cualificadas",
-      description: "Nuestro equipo está formado por fisioterapeutas expertas con formación continua en técnicas avanzadas. El trato profesional y cercano que ofrecemos hace que cada paciente se sienta en las mejores manos. Como dicen nuestros pacientes: el que sabe, sabe.",
-      icon: "Target"
+      title: "Resultados desde la primera sesión",
+      description: "Nuestras pacientes destacan en sus reseñas cómo en una sola sesión consiguen calmar sus dolores. La experiencia y conocimiento de nuestras profesionales permite identificar rápidamente el origen del problema y aplicar el tratamiento más efectivo. Como dicen: 'el que sabe, sabe'.",
+      icon: "TrendingUp"
     },
     {
-      title: "Horario Amplio y Precios Ajustados",
-      description: "Ofrecemos un horario extenso para adaptarnos a tu disponibilidad y facilitar tu recuperación. Nuestros precios son ajustados y competitivos sin renunciar a la calidad del servicio. Te recomendamos pedir cita con antelación por nuestra alta demanda, lo que refleja la confianza de nuestros pacientes.",
-      icon: "Activity"
+      title: "Profesionales expertas y trato cercano",
+      description: "Nuestro equipo combina una alta cualificación profesional con un trato humano y cercano que te hará sentir en confianza desde el primer momento. Formación continua, especialización en diferentes áreas y, sobre todo, verdadera vocación por ayudarte a recuperar tu bienestar.",
+      icon: "Users"
     }
   ],
   team: [
@@ -223,67 +201,59 @@ export const clinic = {
     {
       src: "/images/gallery/1.webp",
       alt: "Fisioterapia \"Olarizu\" - Imagen 1"
-    },
-    {
-      src: "/images/gallery/2.webp",
-      alt: "Fisioterapia \"Olarizu\" - Imagen 2"
-    },
-    {
-      src: "/images/hero.webp",
-      alt: "Fisioterapia \"Olarizu\" - Imagen 3"
     }
   ],
   faq: [
     {
+      question: "¿Necesito cita previa para acudir a Fisioterapia Olarizu?",
+      answer: "Sí, trabajamos con cita previa para garantizarte la mejor atención personalizada. Nuestro horario es amplio y flexible, pero te recomendamos solicitar tu cita con cierta antelación llamando al 607 94 14 28 o por WhatsApp. Así nos aseguramos de tener el tiempo necesario para dedicarte la atención que mereces."
+    },
+    {
       question: "¿Cuántas sesiones necesitaré para recuperarme?",
-      answer: "En Fisioterapia Olarizu cada caso es único y el número de sesiones depende de tu lesión y evolución. Muchos de nuestros pacientes experimentan alivio significativo desde la primera sesión, como reflejan nuestras reseñas. Durante la valoración inicial te daremos una estimación aproximada según tu problema específico. Realizamos seguimiento continuo para ajustar el tratamiento según tus progresos."
+      answer: "Cada caso es único y depende del tipo de lesión o dolor que presentes. En Fisioterapia Olarizu realizamos una valoración inicial exhaustiva para determinar el número aproximado de sesiones. Muchos de nuestros pacientes experimentan alivio significativo desde la primera sesión, tal como reflejan nuestras reseñas. Durante el tratamiento ajustamos el plan según tu evolución."
     },
     {
       question: "¿Qué diferencia a Fisioterapia Olarizu de otras clínicas?",
-      answer: "Contamos con 4.6 estrellas de valoración y 199 reseñas en Google que avalan nuestro trabajo. Nuestras instalaciones cuentan con equipamiento moderno y aparatología de última gama. Nuestras profesionales combinan un trato excelente con técnicas avanzadas que logran resultados desde la primera sesión. Además, ofrecemos precios ajustados y horario amplio para tu comodidad."
+      answer: "Contamos con instalaciones modernas y aparatología de última generación que nos permite ofrecer los tratamientos más avanzados. Nuestras profesionales tienen amplia experiencia y formación especializada. Además, nuestros pacientes destacan la efectividad desde la primera sesión y el trato profesional pero cercano. Con 4.6 estrellas en Google y 199 reseñas, nuestros resultados nos avalan."
     },
     {
-      question: "¿Cómo solicito una cita en Fisioterapia Olarizu?",
-      answer: "Puedes solicitar tu cita llamando al 607 94 14 28 o contactando por WhatsApp. Te recomendamos pedir cita con cierta antelación debido a nuestra alta demanda. Nuestro horario es amplio para adaptarnos a tu disponibilidad. Te atenderemos de forma rápida y profesional para asignarte la mejor fecha."
+      question: "¿Cuáles son los precios de los tratamientos?",
+      answer: "En Fisioterapia Olarizu mantenemos precios ajustados y competitivos sin renunciar a la calidad del servicio ni a la tecnología más avanzada. El precio varía según el tipo de tratamiento que necesites. Te recomendamos llamarnos al 607 94 14 28 para informarte sobre las tarifas específicas de tu caso y posibles bonos de sesiones."
     },
     {
-      question: "¿Tratáis lesiones deportivas?",
-      answer: "Sí, en Fisioterapia Olarizu somos especialistas en fisioterapia deportiva y tratamiento de lesiones relacionadas con el deporte. Trabajamos con deportistas de todos los niveles aplicando técnicas avanzadas de recuperación. Diseñamos programas personalizados para cada tipo de lesión y disciplina deportiva. Nuestro objetivo es que vuelvas a tu actividad deportiva en óptimas condiciones."
-    },
-    {
-      question: "¿Qué tecnología utilizáis en los tratamientos?",
-      answer: "Contamos con equipamiento moderno y aparatología de última gama según destacan nuestros pacientes. Utilizamos electroterapia avanzada, equipos de última generación para rehabilitación y tecnología moderna para acelerar tu recuperación. Combinamos esta tecnología con técnicas manuales especializadas para lograr los mejores resultados. Nuestras instalaciones están completamente actualizadas."
+      question: "¿Tratáis lesiones deportivas y dolores crónicos?",
+      answer: "Sí, en Fisioterapia Olarizu somos especialistas tanto en fisioterapia deportiva como en el tratamiento de dolores crónicos. Utilizamos técnicas como la punción seca para contracturas rebeldes, terapia manual avanzada y aparatología de última generación. Muchos pacientes con problemas físicos persistentes han encontrado solución en nuestra clínica gracias a nuestro enfoque profesional y personalizado."
     },
     {
       question: "¿Ofrecéis tratamiento de suelo pélvico?",
-      answer: "Sí, en Fisioterapia Olarizu ofrecemos tratamiento especializado de suelo pélvico para hombres y mujeres. Abordamos problemas de incontinencia, prolapsos y disfunciones con profesionalidad y discreción. Utilizamos técnicas avanzadas y un enfoque personalizado para cada paciente. Es uno de nuestros servicios especializados con excelentes resultados."
+      answer: "Sí, disponemos de tratamiento especializado para disfunciones del suelo pélvico tanto en hombres como en mujeres. Abordamos problemas de incontinencia, dolor pélvico, recuperación postparto y otras alteraciones con total profesionalidad y discreción. Nuestras fisioterapeutas están especialmente formadas en esta área tan delicada."
     },
     {
-      question: "¿Cuáles son vuestros precios?",
-      answer: "En Fisioterapia Olarizu ofrecemos precios ajustados y competitivos, como destacan nuestros pacientes en sus valoraciones. El precio varía según el tipo de tratamiento y la duración de las sesiones. Durante la primera valoración te informaremos del coste específico de tu tratamiento personalizado. Puedes contactarnos en el 607 94 14 28 para información detallada sobre tarifas."
+      question: "¿Dónde está ubicada la clínica en Araba?",
+      answer: "Fisioterapia Olarizu está ubicada en Araba, Álava, con fácil acceso y modernas instalaciones. Para conocer nuestra ubicación exacta y cómo llegar, te recomendamos contactarnos por teléfono al 607 94 14 28 o buscarnos en Google Maps donde podrás ver también las 199 reseñas de nuestros pacientes satisfechos."
     },
     {
-      question: "¿Puedo ir sin derivación médica?",
-      answer: "Sí, puedes acudir a Fisioterapia Olarizu directamente sin necesidad de derivación médica previa. Realizamos una valoración completa inicial para diagnosticar tu problema y diseñar el tratamiento adecuado. Nuestras profesionales están altamente cualificadas para evaluar y tratar diversos problemas físicos. Si fuera necesario, te recomendaríamos consultar con otros especialistas médicos."
+      question: "¿Puedo ver resultados desde la primera sesión?",
+      answer: "Muchos de nuestros pacientes experimentan alivio del dolor y mejora notable desde la primera sesión, tal como confirman las reseñas en Google. En Fisioterapia Olarizu combinamos técnicas manuales expertas con aparatología de última generación para conseguir resultados efectivos desde el inicio. Como dicen nuestros pacientes: 'el que sabe, sabe', y nuestras profesionales saben exactamente cómo ayudarte."
     }
   ],
   seo: {
     titleTemplate: "%s | Fisioterapia Olarizu",
     defaultTitle: "Fisioterapia Olarizu - Clínica en Araba, Álava",
-    defaultDescription: "Fisioterapia Olarizu en Araba: fisioterapia manual, deportiva, rehabilitación, punción seca y suelo pélvico. 4.6★ en Google. Equipamiento moderno. ☎️ 607 94 14 28",
+    defaultDescription: "Clínica de fisioterapia en Araba con 4.6★ en Google. Fisioterapia manual, deportiva, punción seca, suelo pélvico. Tecnología avanzada. ☎️ 607 94 14 28",
     keywords: [
       "fisioterapia Araba",
       "fisioterapia Álava",
       "Fisioterapia Olarizu",
       "fisioterapeuta Araba",
       "clínica fisioterapia Álava",
-      "rehabilitación Araba",
-      "fisioterapia deportiva Álava",
       "punción seca Araba",
-      "suelo pélvico Álava",
-      "fisioterapia manual Araba",
-      "electroterapia Álava",
-      "fisio Araba"
+      "fisioterapia deportiva Álava",
+      "suelo pélvico Araba",
+      "rehabilitación Araba",
+      "fisioterapia manual Álava",
+      "electroterapia Araba",
+      "fisio Olarizu"
     ],
     ogImage: "/og-image.jpg"
   },
@@ -297,11 +267,11 @@ export const clinic = {
     "Fisioterapia",
     "en Araba"
   ],
-  heroDescription: "En Fisioterapia Olarizu combinamos técnicas manuales especializadas con tecnología de última generación para tu recuperación. Nuestras profesionales cuentan con amplia experiencia y un enfoque personalizado que logra resultados visibles desde la primera sesión. Ubicados en Araba, ofrecemos horario amplio y precios ajustados para tu comodidad.",
-  specialty: "Fisioterapia Avanzada",
+  heroDescription: "En Fisioterapia Olarizu combinamos técnicas manuales especializadas con la tecnología más avanzada para tu recuperación. Con instalaciones modernas, aparatología de última generación y un equipo de profesionales expertas, conseguimos aliviar tu dolor y mejorar tu movilidad desde la primera sesión.",
+  specialty: "Fisioterapia Integral Avanzada",
   ctaLabel: "Tu Recuperación",
-  ctaHeadline: "¿Listo para recuperar tu bienestar?",
-  ctaDescription: "Solicita tu cita en Fisioterapia Olarizu y descubre por qué somos la clínica mejor valorada de Araba. Nuestro equipo te espera para diseñar tu plan de recuperación personalizado.",
+  ctaHeadline: "¿Listo para recuperar tu bienestar y moverte sin dolor?",
+  ctaDescription: "Solicita tu cita de valoración en Fisioterapia Olarizu. Te atenderemos con la profesionalidad y cercanía que nos avalan nuestras más de 199 reseñas. Llámanos o escríbenos por WhatsApp.",
   statsLabel: "Pacientes",
   schemaType: "PhysicalTherapy",
   sectionCopy: {
